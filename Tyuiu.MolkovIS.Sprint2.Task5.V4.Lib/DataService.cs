@@ -22,7 +22,7 @@ namespace Tyuiu.MolkovIS.Sprint2.Task5.V4.Lib
                     res = "червы";
                     break;
                 default:
-                    throw new ArgumentException($"Значение должно быть от 1 до 4. Значение {value}")
+                    throw new ArgumentException($"Значение должно быть от 1 до 4. Значение {value}");
             }
             return res;
         }
